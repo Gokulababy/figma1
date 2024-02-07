@@ -1,0 +1,124 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    width: 31%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+.price {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    text-align: center;
+}
+
+.price span {
+    font-size: 14px;
+    color: green;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .product {
+    width: 30%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .product-type {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .strikethrough {
+    text-decoration: line-through;
+    color: #ccc;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  
+  .sale-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f00;
+  }
+  
+  .sale-percentage {
+    font-size: 14px;
+    color: #fff;
+    background-color: #f00;
+    padding: 2px 5px;
+    margin-left: 10px;
+  }
+  
+  .add-to-cart-button {
+    background-color: #f00;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .item-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.add-to-cart {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.cart-container {
+    display: none;
+}
+
+.view-cart {
+    display: block;
+    margin: 10px auto;
+}
